@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Alterar para Tema Preto",
+  "version": "1.0",
+  "description": "Uma extensão para forçar o modo escuro em sites.",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "128": "icon128.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "128": "icon128.png"
+  }
+}
